@@ -1,58 +1,74 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+## Deepfake Detection Using DeepLearning
+Deepfake detection model using a custom CNN.
+
+##### Dataset used: https://www.kaggle.com/datasets/manjilkarki/deepfake-and-real-images
 
 ## About
 <!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+This project develops an efficient deepfake detection system using a **custom CNN model**, trained on the **Deepfake and Real Images** dataset. With **advanced preprocessing and optimization techniques**, our model achieves a high **ROC-AUC score of 0.97**, ensuring accurate detection of AI-generated images.
 
 ## Features
 <!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+- Custom CNN Model – Designed for accurate deepfake detection with optimized layers.
+- High Accuracy (AUC Score: 0.97) – Ensures reliable classification of real and fake images.
+- Advanced Preprocessing – Includes resizing, normalization, and augmentation for better generalization.
+- Efficient Training – Uses Adam optimizer with batch normalization and dropout to prevent overfitting.
+- Future Adaptability – Can be extended to detect deepfake videos and evolving manipulation techniques.
 
 ## Requirements
 <!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
+* Operating System: Windows 10/11, Ubuntu 24.04+ (WSL).
+* Development Environment: Jupyter Notebook with Python v3.10.
+* Deep Learning Frameworks: TensorFlow v2.18, CUDA v12.4, cuDNN v9.7.1 for model training.
+* Image Processing Libraries: Tensorflow / Keras.
 * Version Control: Implementation of Git for collaborative development and effective code management.
 * IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+* Additional Dependencies: Includes NumPy, Matplotlib (for data visualization), and Pandas for dataset handling and analysis.
 
 ## System Architecture
 <!--Embed the system architecture diagram as shown below-->
-
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
-
+<img src="https://github.com/user-attachments/assets/0777e1ab-ad18-4dce-9814-60fba1384cfd" width=600>
+ 
 
 ## Output
 
 <!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+#### Output1 - Confusion Matrix Heatmap
+<img src="https://github.com/user-attachments/assets/58a87070-f0f9-4ac3-ab45-406554bf95c2" width=600>
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
-
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
-
+#### Output2 - Classification Report
+<img src="https://github.com/user-attachments/assets/42739343-cabe-4476-a30e-1132f34b8607" width=600>
+ 
 Detection Accuracy: 96.7%
 Note: These metrics can be customized based on your actual performance evaluations.
 
 
 ## Results and Impact
 <!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
+* High Accuracy & Robust Performance – The deepfake detection model achieves an accuracy of 89.1% with a ROC-AUC score of 0.97, demonstrating its effectiveness in distinguishing real and fake images.
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+* Reliable Evaluation Metrics – Performance is validated using precision, recall, F1-score, and confusion matrix, ensuring a well-balanced model with minimal false positives and false negatives.
+
+* Scalability & Efficiency – The system processes large-scale deepfake datasets efficiently, making it suitable for real-time detection in cybersecurity, social media moderation, and forensic applications.
+
+* Future Improvements – Enhancements such as video deepfake detection, real-time monitoring, and reduced computational overhead will further strengthen its adaptability against evolving deepfake generation techniques.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+[1]	M. S. Rana, B. Murali and A. H. Sung, "Deepfake Detection Using Machine Learning Algorithms", 2021 10th International Congress on Advanced Applied Informatics (IIAI-AAI), Niigata, Japan, 2021, pp. 458-463, doi: 10.1109/IIAI-AAI53430.2021.00079.
+
+[2]	Vrizlynn L.L. Thing, “Deepfake Detection with Deep Learning: Convolutional Neural Networks versus Transformers”, 2023 IEEE International Conference on Cyber Security and Resilience (CSR), Venice, Italy, 2023, doi: 10.1109/CSR57506.2023.10225004.
+
+[3]	D. Pan, L. Sun, R. Wang, X. Zhang and R. O. Sinnott, "Deepfake Detection through Deep Learning”, 2020 IEEE/ACM International Conference on Big Data Computing, Applications and Technologies (BDCAT), Leicester, UK, 2020, pp. 134-143, doi: 10.1109/BDCAT50828.2020.00001.
+
+[4]	A. Malik, M. Kuribayashi, S. M. Abdullahi and A. N. Khan, "DeepFake Detection for Human Face Images and Videos: A Survey", in IEEE Access, vol. 10, pp. 18757-18775, 2022, doi: 10.1109/ACCESS.2022.3151186.
+
+[5]	A. Mary and A. Edison, "Deep fake Detection using deep learning techniques: A Literature Review", 2023 International Conference on Control, Communication and Computing (ICCC), Thiruvananthapuram, India, 2023, pp. 1-6, doi: 10.1109/ICCC57789.2023.10164881.
+
+[6]	S. R. B. R, P. Kumar Pareek, B. S and G. G, "Deepfake Video Detection System Using Deep Neural Networks", 2023 IEEE International Conference on Integrated Circuits and Communication Systems (ICICACS), Raichur, India, 2023, pp. 1-6, doi: 10.1109/ICICACS57338.2023.10099618.
+
+[7]	A. A. Maksutov, V. O. Morozov, A. A. Lavrenov and A. S. Smirnov, "Methods of Deepfake Detection Based on Machine Learning", 2020 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (EIConRus), St. Petersburg and Moscow, Russia, 2020, pp. 408-411, doi: 10.1109/EIConRus49466.2020.9039057.
+
+[8]	J. K. Lewis et al., "Deepfake Video Detection Based on Spatial, Spectral, and Temporal Inconsistencies Using Multimodal Deep Learning", 2020 IEEE Applied Imagery Pattern Recognition Workshop (AIPR), Washington DC, DC, USA, 2020, pp. 1-9, doi: 10.1109/AIPR50011.2020.9425167.
 
 
 
